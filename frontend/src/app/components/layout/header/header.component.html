@@ -8,13 +8,13 @@
             <a href="/products">
                 <img src="assets/logo.png" alt="" width="50px" height="50px">
             </a>
-            <a href="/products">
+            <a href="/products" class="mt-2">
                 <h3 class="text-muted">Livraria</h3>
             </a>
         </div>
 
         <!-- Search bar -->
-        <div class="headerSearchBar col-md-4 d-flex">
+        <div class="headerSearchBar col-md-4 d-flex mt-1">
             <div class="input-group rounded">
                 <input type="search" class="form-control rounded"
                     placeholder="Pesquisar (Título, Nome do autor ou ISBN)" aria-label="Search"
@@ -27,7 +27,7 @@
             <a routerLink="about-us">
                 <i class="fa-solid fa-location-dot fa-2x"></i>
             </a>
-            <a routerLink="about-us">
+            <a routerLink="about-us" class="mt-2">
                 <h4 class="text-muted">Sobre nós</h4>
             </a>
             <div class="vr"></div>
@@ -50,10 +50,10 @@
 
         <ng-template #notLoggedIn>
             <div class="headerClient col-md-2 d-flex align-items-center justify-content-around">
-                <a routerLink="client/profile">
+                <a routerLink="client/profile mt-1">
                     <i class="fa-solid fa-user fa-2x"></i>
                 </a>
-                <a routerLink="client/profile">
+                <a routerLink="client/profile" class="mt-2">
                     <h4 class="text-muted">Conta</h4>
                 </a>
                 <div class="vr"></div>
@@ -65,7 +65,7 @@
             <a routerLink="cart" matBadge="{{totalBooks}}" matBadgeColor="warn">
                 <i class="fa-solid fa-cart-shopping fa-2x"></i>
             </a>
-            <a routerLink="cart" id="cartText">
+            <a routerLink="cart" id="cartText" class="mt-2">
                 <h4 class="text-muted">Carrinho</h4>
             </a>
         </div>
